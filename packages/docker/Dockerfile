@@ -1,7 +1,7 @@
 FROM node:lts-slim
 
 # 设置工作目录
-WORKDIR /app
+WORKDIR /karin-app
 
 # 安装pnpm和karin cli工具
 RUN npm install -g pnpm@^9 @karinjs/cli
@@ -58,12 +58,12 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
   && rm -rf /var/lib/apt/lists/*
 
 # 复制启动脚本
-COPY packages/docker/start.sh /app/start.sh
-RUN chmod +x /app/start.sh
+COPY packages/docker/start.sh /karin-app/start.sh
+RUN chmod +x /karin-app/start.sh
 
 # 数据卷
-VOLUME ["/app"]
+VOLUME ["/karin-app/@karinjs"]
 
 # 启动命令
-CMD ["/app/start.sh"]
+CMD ["/karin-app/start.sh"]
 
