@@ -6,6 +6,9 @@ WORKDIR /karin-app
 # 安装pnpm和karin cli工具
 RUN npm install -g pnpm@^9 @karinjs/cli
 
+# 加速包安装
+RUN pnpm config set registry https://registry.npmmirror.com 
+
 # 初始化项目
 RUN pnpm init && \
   pnpm install node-karin && \
@@ -62,7 +65,7 @@ COPY packages/docker/start.sh /karin-app/start.sh
 RUN chmod +x /karin-app/start.sh
 
 # 数据卷
-VOLUME ["/karin-app/@karinjs"]
+VOLUME ["/karin-app/@karinjs", "/karin-app/plugins"]
 
 # 启动命令
 CMD ["/karin-app/start.sh"]
