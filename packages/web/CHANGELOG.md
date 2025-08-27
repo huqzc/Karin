@@ -1,5 +1,49 @@
 # Changelog
 
+## [1.9.8](https://github.com/huqzc/Karin/compare/web-v1.9.7...web-v1.9.8) (2025-08-27)
+
+
+### 🐛 Bug Fixes
+
+* close [#500](https://github.com/huqzc/Karin/issues/500) ([#502](https://github.com/huqzc/Karin/issues/502)) ([798eca3](https://github.com/huqzc/Karin/commit/798eca3e0bde5733c52bc4fc57b6e8a9ad5441f3))
+* **ControlButtons:** 重构控制按钮组件并增强重启和关机功能 ([e26016b](https://github.com/huqzc/Karin/commit/e26016b8690cf1c1979277f1434ee2cd06d782ba))
+* site ([#504](https://github.com/huqzc/Karin/issues/504)) ([b55de78](https://github.com/huqzc/Karin/commit/b55de78c082c3c7ead8605c5baf573107b545be9))
+* **仪表盘:** 当版本号过长时自动进行滚动以显示完整的版本号 ([d03a931](https://github.com/huqzc/Karin/commit/d03a931f16b94d54a85b852a5dd4776140df829a))
+* 优化重启功能逻辑和UI引导 ([7746c21](https://github.com/huqzc/Karin/commit/7746c21834ea8f010dbb713e66a3ee0d87d1e206))
+* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/huqzc/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))
+
+
+### ⚡️ Performance
+
+* **系统监控:** 增强系统状态监控功能并优化UI展示、格式化主页状态的运行时间 ([#482](https://github.com/huqzc/Karin/issues/482)) ([e7a0649](https://github.com/huqzc/Karin/commit/e7a064978eace9d75762301c2baac930a447c11f))
+
+
+### 💄 Styles
+
+* **dashboard:** 更新版本提示样式为更醒目的动画徽章 ([1894cbf](https://github.com/huqzc/Karin/commit/1894cbfce2395975109f2a8373c23f8983414712))
+* **更新流程:** 优化系统更新流程并添加全屏加载器 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+* **更新流程:** 在仪表板页面添加全局更新状态管理 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+* **更新流程:** 增强全屏加载器组件，支持进度显示和状态提示 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+* **更新流程:** 提升Toast组件的z-index确保在加载器上方显示 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+* **更新流程:** 改进更新确认对话框的用户体验 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+* **更新流程:** 重构更新按钮组件，添加更新开始/结束回调 ([d86659e](https://github.com/huqzc/Karin/commit/d86659ea91bf14bfffc8e5c16baa5c9d24d15643))
+
+
+### 🎫 Chores
+
+* release main ([#480](https://github.com/huqzc/Karin/issues/480)) ([39bb52b](https://github.com/huqzc/Karin/commit/39bb52b086fcc4848d1f3b3364ce94f6e52265e9))
+* release main ([#481](https://github.com/huqzc/Karin/issues/481)) ([9b4795c](https://github.com/huqzc/Karin/commit/9b4795c2d5f553e922ae9af9347901adda3af30c))
+* release main ([#483](https://github.com/huqzc/Karin/issues/483)) ([d2838e7](https://github.com/huqzc/Karin/commit/d2838e7c99319e160db12a0019ae6c3a26bae592))
+* release main ([#490](https://github.com/huqzc/Karin/issues/490)) ([da8b873](https://github.com/huqzc/Karin/commit/da8b8730b93b06097d6599d62e7e400258952edb))
+* release main ([#499](https://github.com/huqzc/Karin/issues/499)) ([6359a1c](https://github.com/huqzc/Karin/commit/6359a1cb881b6fe466dbeece6e45aefae782461b))
+* release main ([#505](https://github.com/huqzc/Karin/issues/505)) ([68c101c](https://github.com/huqzc/Karin/commit/68c101cfcf53a9d5e598b329167ccb161353c0b4))
+
+
+### ♻️ Code Refactoring
+
+* onebot ([#486](https://github.com/huqzc/Karin/issues/486)) ([d6aa616](https://github.com/huqzc/Karin/commit/d6aa6163f655dc270cf6927a660701a2bb9e7c3c))
+* 重构插件索引页 ([#484](https://github.com/huqzc/Karin/issues/484)) ([6f17242](https://github.com/huqzc/Karin/commit/6f17242f93a646512b96c6c9474f968f87cae206))
+
 ## [1.9.7](https://github.com/KarinJS/Karin/compare/web-v1.9.6...web-v1.9.7) (2025-07-07)
 
 

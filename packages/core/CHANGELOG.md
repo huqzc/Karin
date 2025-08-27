@@ -1,5 +1,63 @@
 # 更新日志
 
+## [1.10.21](https://github.com/huqzc/Karin/compare/core-v1.10.20...core-v1.10.21) (2025-08-27)
+
+
+### 🐛 Bug Fixes
+
+* `raw`原始文本 ([21cd207](https://github.com/huqzc/Karin/commit/21cd2074ba7da1650c2ccad6d62f117a8907321f))
+* close [#429](https://github.com/huqzc/Karin/issues/429) ([bf28049](https://github.com/huqzc/Karin/commit/bf280492827eb9c1f4208b9179f40998a9094012))
+* close [#453](https://github.com/huqzc/Karin/issues/453) ([11119b2](https://github.com/huqzc/Karin/commit/11119b27b49d1b82b81d7d3938e9478ee8ad1798))
+* close [#474](https://github.com/huqzc/Karin/issues/474) ([a985f0a](https://github.com/huqzc/Karin/commit/a985f0a214ecc8fb7edefe4a00f9afe24e443e4a))
+* hasPermission ([eff1274](https://github.com/huqzc/Karin/commit/eff1274f9b85dd9e495655b9434e5ee2a5694442))
+* napcat name ([5bbe6b1](https://github.com/huqzc/Karin/commit/5bbe6b1f9018eb29f808a62af9995e04a41ff3e2))
+* onebot 声明周期事件错误 ([7bf0152](https://github.com/huqzc/Karin/commit/7bf0152fc1d807ea46a1f0998da78403c0883acf))
+* site ([#504](https://github.com/huqzc/Karin/issues/504)) ([b55de78](https://github.com/huqzc/Karin/commit/b55de78c082c3c7ead8605c5baf573107b545be9))
+* webui ([baf7666](https://github.com/huqzc/Karin/commit/baf7666cbc019674d0189b418cf448d1feafb5d6))
+* webui卸载插件 ([2b08c90](https://github.com/huqzc/Karin/commit/2b08c900c9b199439e418d4f1ec76e3303704408))
+* 优化重启功能逻辑和UI引导 ([7746c21](https://github.com/huqzc/Karin/commit/7746c21834ea8f010dbb713e66a3ee0d87d1e206))
+* 修复lagrange环境下 调用getHistoryMsg只使用getGroupMsgHistory的问题 ([#509](https://github.com/huqzc/Karin/issues/509)) ([225cc58](https://github.com/huqzc/Karin/commit/225cc58afd09bef0880a9874c220db5be5077369))
+* 修复pr导致的编译错误 ([20daaf1](https://github.com/huqzc/Karin/commit/20daaf1bd3713d3f4b7938f831897c7450c10bc8))
+* 修正前端配置保存判断失败 ([f419144](https://github.com/huqzc/Karin/commit/f41914408f7871695adbf2f9956265e45ad8bead))
+* 回滚部分重启逻辑，更新重启交互引导 ([b5363eb](https://github.com/huqzc/Karin/commit/b5363ebcd66a7e7812073125ac09b227fa437f71))
+* 孤儿进程 ([f459e14](https://github.com/huqzc/Karin/commit/f459e145480dcb8ebeddf694ca947998350183e9))
+* 更新`hooks.sendMsg.message`描述 ([9efe1d4](https://github.com/huqzc/Karin/commit/9efe1d4378cf5df00ab6c621ead976447f906eba))
+* 补充频道事件缺少的字段 ([1fd85f4](https://github.com/huqzc/Karin/commit/1fd85f4af45e535b53818f8cc28661c90cef1315))
+
+
+### ⚡️ Performance
+
+* **系统监控:** 增强系统状态监控功能并优化UI展示、格式化主页状态的运行时间 ([#482](https://github.com/huqzc/Karin/issues/482)) ([e7a0649](https://github.com/huqzc/Karin/commit/e7a064978eace9d75762301c2baac930a447c11f))
+
+
+### 🎫 Chores
+
+* release main ([#480](https://github.com/huqzc/Karin/issues/480)) ([39bb52b](https://github.com/huqzc/Karin/commit/39bb52b086fcc4848d1f3b3364ce94f6e52265e9))
+* release main ([#481](https://github.com/huqzc/Karin/issues/481)) ([9b4795c](https://github.com/huqzc/Karin/commit/9b4795c2d5f553e922ae9af9347901adda3af30c))
+* release main ([#483](https://github.com/huqzc/Karin/issues/483)) ([d2838e7](https://github.com/huqzc/Karin/commit/d2838e7c99319e160db12a0019ae6c3a26bae592))
+* release main ([#485](https://github.com/huqzc/Karin/issues/485)) ([36d3e03](https://github.com/huqzc/Karin/commit/36d3e03a1be71f842bc93e1da38ef70900b2049d))
+* release main ([#490](https://github.com/huqzc/Karin/issues/490)) ([da8b873](https://github.com/huqzc/Karin/commit/da8b8730b93b06097d6599d62e7e400258952edb))
+* release main ([#491](https://github.com/huqzc/Karin/issues/491)) ([02b0ab1](https://github.com/huqzc/Karin/commit/02b0ab18f43fbd5aa991dfeabfad06ea6891097e))
+* release main ([#494](https://github.com/huqzc/Karin/issues/494)) ([95087c9](https://github.com/huqzc/Karin/commit/95087c99e72b60db802e4e5337579c94e791fdea))
+* release main ([#495](https://github.com/huqzc/Karin/issues/495)) ([a77595a](https://github.com/huqzc/Karin/commit/a77595a374bd75490409b03bef6b631a6f0c4440))
+* release main ([#496](https://github.com/huqzc/Karin/issues/496)) ([76530aa](https://github.com/huqzc/Karin/commit/76530aaeca84585b7fc3a3c503dcde1dcad9cb18))
+* release main ([#498](https://github.com/huqzc/Karin/issues/498)) ([f8662be](https://github.com/huqzc/Karin/commit/f8662be548d3bd7f9fa87dba179293b4f16cf44e))
+* release main ([#499](https://github.com/huqzc/Karin/issues/499)) ([6359a1c](https://github.com/huqzc/Karin/commit/6359a1cb881b6fe466dbeece6e45aefae782461b))
+* release main ([#505](https://github.com/huqzc/Karin/issues/505)) ([68c101c](https://github.com/huqzc/Karin/commit/68c101cfcf53a9d5e598b329167ccb161353c0b4))
+* release main ([#510](https://github.com/huqzc/Karin/issues/510)) ([7596a12](https://github.com/huqzc/Karin/commit/7596a1297ffade7953891f3ad5ea9f8591f6d37e))
+* release main ([#511](https://github.com/huqzc/Karin/issues/511)) ([5e13b7c](https://github.com/huqzc/Karin/commit/5e13b7c2f42de33141ef0d611108f237d7d24a2e))
+
+
+### ♻️ Code Refactoring
+
+* onebot ([#486](https://github.com/huqzc/Karin/issues/486)) ([d6aa616](https://github.com/huqzc/Karin/commit/d6aa6163f655dc270cf6927a660701a2bb9e7c3c))
+* 重构插件索引页 ([#484](https://github.com/huqzc/Karin/issues/484)) ([6f17242](https://github.com/huqzc/Karin/commit/6f17242f93a646512b96c6c9474f968f87cae206))
+
+
+### 📦️ Build System
+
+* fix types error ([05feb59](https://github.com/huqzc/Karin/commit/05feb59aad90ebff0f31e4f0440f7a9dddf241fc))
+
 ## [1.10.20](https://github.com/KarinJS/Karin/compare/core-v1.10.19...core-v1.10.20) (2025-07-16)
 
 
